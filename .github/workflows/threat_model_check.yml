@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
+permissions: write-all
 
 jobs:
   threat-check:

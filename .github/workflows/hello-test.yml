@@ -6,7 +6,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: hello
-       uses: Dcrash0veride/custom_action@e2ceb71eff8a195ab15c9e6693da21b2e37ec165
+       uses: Dcrash0veride/custom_action@aa835f04eb12ba9dd888f956fd71dc72466acead
 
      - name: echo
        run: |

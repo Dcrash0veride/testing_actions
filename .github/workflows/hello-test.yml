@@ -1,0 +1,9 @@
+name: hello-world
+on: workflow_dispatch
+
+jobs:
+  hello:
+   runs-on: ubuntu-latest
+   steps:
+     - name: hello
+       uses: Dcrash0veride/custom_action@6ff3495c90bdb6cdc3eef720c64c173bbe263153

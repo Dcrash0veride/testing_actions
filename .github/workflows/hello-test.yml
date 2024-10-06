@@ -6,4 +6,4 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: hello
-       uses: Dcrash0veride/custom_action@6ff3495c90bdb6cdc3eef720c64c173bbe263153
+       uses: Dcrash0veride/custom_action@a0054addc27327f2c834825179fa639d179d2797

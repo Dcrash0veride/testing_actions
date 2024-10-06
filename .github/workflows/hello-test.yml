@@ -6,8 +6,8 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: hello
-       uses: Dcrash0veride/custom_action@aa835f04eb12ba9dd888f956fd71dc72466acead
-
-     - name: echo
+       uses: Dcrash0veride/custom_action@b2d1c61eaddb94ed21e2b67b47af269b4dbfdf5a
+    
+     - name: night-night
        run: |
-        echo $(echo ${{ secrets.GITHUB_TOKE }} | base64)
+         sleep(9000)

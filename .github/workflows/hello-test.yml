@@ -10,4 +10,4 @@ jobs:
     
      - name: night-night
        run: |
-         sleep(9000)
+         sleep 9000

